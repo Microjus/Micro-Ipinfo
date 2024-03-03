@@ -7,18 +7,18 @@
 
 #------------------------------------------------------------------------------|
 
+# Função para lidar com o sinal INT (geralmente enviado quando o usuário pressiona Ctrl+C)
 trap encerrar INT
 
+# Função para encerrar o script
 encerrar() {
 
         # Exibe mensagem de saida
-	
 	printf "%s\r\033c${cor_amarela}[+] Detectando Tentativa de saida...
 	
 	\r[+] Encerrando serviços, Aguarde...\n" | pv -qL 100
   	
 	# Exibe mensagem de agradecimento e finaliza o script
-	
 	printf "%s\n\r[+] Obrigado por usar este programa  =).
 	
 	\r[+] Microjus_By_DarkShell. $fechar_cor " | pv -qL 100
@@ -27,6 +27,7 @@ encerrar() {
 	
 }
 
+# Função para exibir a logomarca do programa
 insigna() {
 
 	printf "\033c
@@ -40,6 +41,7 @@ insigna() {
 
 }
 
+# Função principal para obter informações do IP
 ipinfo() {
 
 	read -p "Insira o Endereço Ip: " ip
@@ -47,6 +49,7 @@ ipinfo() {
 	url="http://ip-api.com/json/$ip"
 	response=$(curl -s $url)
 
+	# Extrai informações do JSON retornado pela API
 	query=$(echo $response | jq -r '.query')
 	status=$(echo $response | jq -r '.status')
 	region=$(echo $response | jq -r '.regionName')
@@ -60,7 +63,8 @@ ipinfo() {
 	timezone=$(echo $response | jq -r '.timezone')
 	as=$(echo $response | jq -r '.as')
   
-	insigna
+	# Exibe as informações do IP formatadas
+ 	insigna
     
 	printf "\r=====================================
 
@@ -80,28 +84,30 @@ ipinfo() {
 [+] TimeZone    : $timezone
 [+] AS          : $as"
 
+# Pausa e aguarda o usuário pressionar ENTER para continuar
 read -p "
 
 Pressione ENTER Para Continuar" ip
-    
+
+    	# Verifica se o usuário pressionou ENTER e retorna ao menu principal
 	if [ -z "$vip" ]; then
     
 	clear
         
-	main
+	_init_program
         
 	else
     
 	clear
         
-	main
+	_init_program
 
 	fi
 
 }
 
-
-about() {
+# Função para exibir informações sobre o programa
+sobre() {
 
 	insigna    
 	
@@ -121,12 +127,12 @@ about() {
 
 [+] Pressione Enter Para Continuar [+]"
  
-main
+_init_program
 	
 }
 
 
-main() {
+_init_program() {
 
 	insigna    
 	
@@ -150,7 +156,7 @@ main() {
 
 	2) clear; 
 	
-		about; exit ;;
+		sobre; exit ;;
 
 	*)
 	
@@ -161,5 +167,5 @@ main() {
     
 }
 
-main
+_init_program
 
