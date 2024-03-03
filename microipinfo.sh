@@ -19,7 +19,7 @@ verificar_dependencias() {
  
 	if [ "$instalar_jq" = "s" ]; then
 	# Comando para instalar o jq, você pode modificar de acordo com a sua distribuição
-	sudo apt install jq  # Exemplo para distribuições baseadas em Debian/Ubuntu
+	sudo apt install jq -y # Exemplo para distribuições baseadas em Debian/Ubuntu
 	# Se sua distribuição for diferente, substitua o comando acima pelo comando de instalação apropriado
  
 	else
@@ -36,7 +36,7 @@ verificar_dependencias() {
 	if [ "$instalar_pv" = "s" ]; then
  
 	# Comando para instalar o pv, você pode modificar de acordo com a sua distribuição
-	sudo apt install pv  # Exemplo para distribuições baseadas em Debian/Ubuntu
+	sudo apt install pv -y # Exemplo para distribuições baseadas em Debian/Ubuntu
 	# Se sua distribuição for diferente, substitua o comando acima pelo comando de instalação apropriado
  
 	else
