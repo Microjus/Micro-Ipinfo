@@ -8,7 +8,7 @@
 ### Instalação
 > **Clone o Repositório**
 ```bash
-git clone https://github.com/Microjus/MicroIpinfo.git
+git clone https://github.com/Microjus/Micro-Ipinfo.git
 ```
 ### Execução
 > **Atribuir permissao**
