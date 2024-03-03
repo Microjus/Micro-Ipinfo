@@ -8,7 +8,7 @@
 ### Instalação
 > **Clone o Repositório**
 ```bash
-$ [git clone https://github.com/Microjus/Micro-Calc.git](https://github.com/Microjus/MicroIpinfo.git)
+https://github.com/Microjus/MicroIpinfo.git
 ```
 ### Execução
 > **Linha de Comando**
