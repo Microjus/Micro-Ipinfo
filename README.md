@@ -8,12 +8,14 @@
 ### Instalação
 > **Clone o Repositório**
 ```bash
-https://github.com/Microjus/MicroIpinfo.git
+git clone https://github.com/Microjus/MicroIpinfo.git
 ```
 ### Execução
-> **Linha de Comando**
+> **Atribuir permissao**
 ```bash
 $ chmod +x microipinfo.sh
+
+> **Executar**
 $ bash microipinfo.sh ou ./microipinfo.sh
 ```
 [Banner]: https://github.com/Microjus/MicroIpinfo/blob/main/microipinfo.png.PNG
