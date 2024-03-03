@@ -15,7 +15,7 @@ verificar_dependencias() {
 
 	# Verifica se o comando jq está disponível
 	if ! command -v jq &>/dev/null; then
-	read -p "O comando 'jq' não está instalado. Deseja instalá-lo agora? (s/n): " instalar_jq
+	clear ; read -p "O comando 'jq' não está instalado. Deseja instalá-lo agora? (s/n): " instalar_jq
  
 	if [ "$instalar_jq" = "s" ]; then
 	# Comando para instalar o jq, você pode modificar de acordo com a sua distribuição
@@ -32,7 +32,7 @@ verificar_dependencias() {
  
 	# Verifica se o comando pv está disponível
 	if ! command -v pv &>/dev/null; then
-	read -p "O comando 'pv' não está instalado. Deseja instalá-lo agora? (s/n): " instalar_pv
+	clear ; read -p "O comando 'pv' não está instalado. Deseja instalá-lo agora? (s/n): " instalar_pv
 	if [ "$instalar_pv" = "s" ]; then
  
 	# Comando para instalar o pv, você pode modificar de acordo com a sua distribuição
