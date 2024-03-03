@@ -1,6 +1,6 @@
 > [![Bash4.4.18-shield]](http://tldp.org/LDP/abs/html/bashver4.html#AEN21220) [![LICENSE](https://img.shields.io/badge/Licen%C3%A7a-MIT-brightgreen.svg)](https://github.com/Microjus/Micro-Calc/blob/main/LICENSE)
 
-> Calculadora simples e funcional escrita em Shell Bash.
+> Localizador de IP simples e rapido em bash.
  
 ![Banner]
 
@@ -8,13 +8,13 @@
 ### Instalação
 > **Clone o Repositório**
 ```bash
-$ git clone https://github.com/Microjus/Micro-Calc.git
+$ [git clone https://github.com/Microjus/Micro-Calc.git](https://github.com/Microjus/MicroIpinfo.git)
 ```
 ### Execução
 > **Linha de Comando**
 ```bash
-$ chmod +x micro-calc
-$ bash micro-calc ou ./micro-calc
+$ chmod +x microipinfo.sh
+$ bash microipinfo.sh ou ./microipinfo.sh
 ```
 [Banner]: https://github.com/Microjus/MicroIpinfo/blob/main/microipinfo.png.PNG
 [Bash4.4.18-shield]: https://img.shields.io/badge/Bash-4.4.18%2B-brightgreen.svg "Bash 4.4.18 Ou superior"
