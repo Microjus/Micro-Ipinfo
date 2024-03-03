@@ -10,6 +10,43 @@
 # Função para lidar com o sinal INT (geralmente enviado quando o usuário pressiona Ctrl+C)
 trap encerrar INT
 
+# Função para verificar e instalar dependências necessárias
+verificar_dependencias() {
+
+	# Verifica se o comando jq está disponível
+	if ! command -v jq &>/dev/null; then
+	read -p "O comando 'jq' não está instalado. Deseja instalá-lo agora? (s/n): " instalar_jq
+ 
+	if [ "$instalar_jq" = "s" ]; then
+	# Comando para instalar o jq, você pode modificar de acordo com a sua distribuição
+	sudo apt install jq  # Exemplo para distribuições baseadas em Debian/Ubuntu
+	# Se sua distribuição for diferente, substitua o comando acima pelo comando de instalação apropriado
+ 
+	else
+ 
+	printf "Certifique-se de instalar o 'jq' manualmente para usar este script.\n"
+ 
+	fi
+ 
+	fi
+ 
+	# Verifica se o comando pv está disponível
+	if ! command -v pv &>/dev/null; then
+	read -p "O comando 'pv' não está instalado. Deseja instalá-lo agora? (s/n): " instalar_pv
+	if [ "$instalar_pv" = "s" ]; then
+ 
+	# Comando para instalar o pv, você pode modificar de acordo com a sua distribuição
+	sudo apt install pv  # Exemplo para distribuições baseadas em Debian/Ubuntu
+	# Se sua distribuição for diferente, substitua o comando acima pelo comando de instalação apropriado
+ 
+	else
+ 
+	printf "Certifique-se de instalar o 'pv' manualmente para usar este script.\n"
+	fi
+ 
+	fi
+}
+
 # Função para encerrar o script
 encerrar() {
 
