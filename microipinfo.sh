@@ -45,6 +45,8 @@ verificar_dependencias() {
 	fi
  
 	fi
+ 
+ 	_init_program
 }
 
 # Função para encerrar o script
@@ -204,5 +206,5 @@ _init_program() {
     
 }
 
-_init_program
+
 
