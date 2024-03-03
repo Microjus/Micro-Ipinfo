@@ -206,5 +206,5 @@ _init_program() {
     
 }
 
-
+verificar_dependencias
 
