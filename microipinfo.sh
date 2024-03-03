@@ -60,7 +60,7 @@ encerrar() {
 	# Exibe mensagem de agradecimento e finaliza o script
 	printf "%s\n\r[+] Obrigado por usar este programa  =).
 	
-	\r[+] Microjus_By_DarkShell. $fechar_cor " | pv -qL 100
+	\r[+] Microjus_By_DarkShell. $fechar_cor \n" | pv -qL 100
 	
 	exit 0
 	
