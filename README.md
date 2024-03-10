@@ -13,12 +13,12 @@ git clone https://github.com/Microjus/Micro-Ipinfo.git
 ### Permissões
 > **Atribuir permissao**
 ```bash
-$ chmod +x microipinfo.sh
+chmod +x microipinfo.sh
 ```
 ### Execução
 > **Execute**
 ```bash
-$ bash microipinfo.sh
+bash microipinfo.sh
 ```
 
 [Banner]: https://github.com/Microjus/Micro-Ipinfo/blob/main/microipinfo.PNG
