@@ -43,7 +43,7 @@ bash microipinfo.sh
 >-----------------------------------------------
 
 >[+] Pressione Enter Para Continuar [+]
-</div>
+
 ```
 
 [Banner]: https://github.com/Microjus/Micro-Ipinfo/blob/main/microipinfo.PNG
