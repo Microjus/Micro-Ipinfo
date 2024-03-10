@@ -25,8 +25,29 @@ bash microipinfo.sh
 ```
 ### Sobre
 > **Sobre o Script**
-![Sobre]
+```bash
+ __  __ _               ___       _        __
+|  \/  (_) ___ _ __ ___|_ _|_ __ (_)_ __  / _| ___
+| |\/| | |/ __| '__/ _ \| || '_ \| | '_ \| |_ / _ \
+| |  | | | (__| | | (_) | || |_) | | | | |  _| (_) |
+|_|  |_|_|\___|_|  \___/___| .__/|_|_| |_|_|  \___/
+                           |_|
+
+
+-----------------------------------------------
+
+[+] Nome da ferramenta   : MicroIpinfo
+
+[+] Ultima atualizacao   : 26/02/2024
+
+[+] Autor                : Microjus
+
+[+] Github               : Microjus
+
+-----------------------------------------------
+
+[+] Pressione Enter Para Continuar [+]
+```
 
 [Banner]: https://github.com/Microjus/Micro-Ipinfo/blob/main/microipinfo.PNG
-[Sobre]: https://github.com/Microjus/Micro-Ipinfo/blob/main/microipinfosobre.PNG
 [Bash4.4.18-shield]: https://img.shields.io/badge/Bash-4.4.18%2B-brightgreen.svg "Bash 4.4.18 Ou superior"
