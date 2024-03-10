@@ -20,12 +20,8 @@ chmod +x microipinfo.sh
 ```bash
 bash microipinfo.sh
 ```
-### Sobre
+### Sobre o Script
 ```html
-<div style="color: green;">
-
-> **Sobre o Script**
-```bash
  __  __ _               ___       _        __
 |  \/  (_) ___ _ __ ___|_ _|_ __ (_)_ __  / _| ___
 | |\/| | |/ __| '__/ _ \| || '_ \| | '_ \| |_ / _ \
@@ -46,7 +42,7 @@ bash microipinfo.sh
 
 >-----------------------------------------------
 
->[+] Pressione Enter Para Continuar [+]```
+>[+] Pressione Enter Para Continuar [+]
 </div>
 ```
 
