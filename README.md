@@ -21,8 +21,8 @@ chmod +x microipinfo.sh
 bash microipinfo.sh
 ```
 ### Sobre
-> **Sobre o Script**
 <font color="green">
+> **Sobre o Script**
 ```bash
  __  __ _               ___       _        __
 |  \/  (_) ___ _ __ ___|_ _|_ __ (_)_ __  / _| ___
@@ -46,6 +46,7 @@ bash microipinfo.sh
 
 >[+] Pressione Enter Para Continuar [+]
 
+</font>
 ```
 [Banner]: https://github.com/Microjus/Micro-Ipinfo/blob/main/microipinfo.PNG
 [Bash4.4.18-shield]: https://img.shields.io/badge/Bash-4.4.18%2B-brightgreen.svg "Bash 4.4.18 Ou superior"
