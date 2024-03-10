@@ -10,12 +10,15 @@
 ```bash
 git clone https://github.com/Microjus/Micro-Ipinfo.git
 ```
-### Execução
+### Permissões
 > **Atribuir permissao**
 ```bash
 $ chmod +x microipinfo.sh
+```
+### Execução
 > **Executar**
 $ bash microipinfo.sh ou ./microipinfo.sh
 ```
+
 [Banner]: https://github.com/Microjus/Micro-Ipinfo/blob/main/microipinfo.PNG
 [Bash4.4.18-shield]: https://img.shields.io/badge/Bash-4.4.18%2B-brightgreen.svg "Bash 4.4.18 Ou superior"
