@@ -14,7 +14,7 @@ git clone https://github.com/Microjus/Micro-Ipinfo.git
 > **Atribuir permissao**
 ```bash
 $ chmod +x microipinfo.sh
-
+```
 > **Executar**
 $ bash microipinfo.sh ou ./microipinfo.sh
 ```
