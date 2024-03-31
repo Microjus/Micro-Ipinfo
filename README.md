@@ -45,10 +45,10 @@ bash microipinfo.sh
 >[+] Pressione Enter Para Continuar [+]
 
 ```
-#### Code-Snippets
+#### Observações
 <details open>
   <summary><strong>Description</strong></summary>
-Algumas das configurações deste REDME.MD foram recomendados pelo desenvolvedor WMercenario.
+Algumas das configurações deste README.MD foram recomendados pelo desenvolvedor WMercenario.
 </details>
 
 [Banner]: https://github.com/Microjus/Micro-Ipinfo/blob/main/microipinfo.PNG
