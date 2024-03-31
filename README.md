@@ -45,6 +45,11 @@ bash microipinfo.sh
 >[+] Pressione Enter Para Continuar [+]
 
 ```
+#### Code-Snippets
+<details closed>
+  <summary><strong>Description</strong></summary>
+An organized collection of reusable snippets of code, spanning various programming languages and solutions. This folder serves as a valuable resource for streamlining development, providing practical examples to solve common problems and inspire new implementations.
+</details>
 
 [Banner]: https://github.com/Microjus/Micro-Ipinfo/blob/main/microipinfo.PNG
 [Bash4.4.18-shield]: https://img.shields.io/badge/Bash-4.4.18%2B-brightgreen.svg "Bash 4.4.18 Ou superior"
