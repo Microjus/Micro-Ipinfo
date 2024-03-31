@@ -48,7 +48,7 @@ bash microipinfo.sh
 #### Observações
 <details open>
   <summary><strong>Description</strong></summary>
-Algumas das configurações deste README.MD foram recomendados pelo desenvolvedor WMercenario.
+Algumas das configurações deste README.MD foram recomendados pelo desenvolvedor SnowPerfectDev.
 </details>
 
 [Banner]: https://github.com/Microjus/Micro-Ipinfo/blob/main/microipinfo.PNG
