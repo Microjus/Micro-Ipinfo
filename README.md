@@ -46,9 +46,9 @@ bash microipinfo.sh
 
 ```
 #### Code-Snippets
-<details closed>
+<details open>
   <summary><strong>Description</strong></summary>
-An organized collection of reusable snippets of code, spanning various programming languages and solutions. This folder serves as a valuable resource for streamlining development, providing practical examples to solve common problems and inspire new implementations.
+Algumas das configurações deste REDME.MD foram recomendados pelo desenvolvedor WMercenario.
 </details>
 
 [Banner]: https://github.com/Microjus/Micro-Ipinfo/blob/main/microipinfo.PNG
