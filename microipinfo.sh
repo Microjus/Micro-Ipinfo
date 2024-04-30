@@ -15,7 +15,8 @@ verificar_dependencias() {
 
 	# Verifica se o comando jq está disponível
 	if ! command -v jq &>/dev/null; then
-	clear ; read -p "O comando 'jq' não está instalado. \n Deseja instalá-lo agora? (s/n): " instalar_jq
+	clear ; read -p "O comando 'jq' não está instalado.
+        Deseja instalá-lo agora? (s/n): " instalar_jq
  
 	if [ "$instalar_jq" = "s" ]; then
 	# Comando para instalar o jq, você pode modificar de acordo com a sua distribuição
