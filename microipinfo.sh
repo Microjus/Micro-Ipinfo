@@ -34,11 +34,11 @@ Deseja instalá-lo agora? (s/n): " instalar_jq
 	# Verifica se o comando pv está disponível
 	if ! command -v pv &>/dev/null; then
 	clear ; read -p "O comando 'tput' não está instalado. 
-Deseja instalá-lo agora? (s/n): " instalar_tput
+Deseja instalá-lo agora? (s/n): " instalar_pv
 	if [ "$instalar_pv" = "s" ]; then
  
-	# Comando para instalar o tput, você pode modificar de acordo com a sua distribuição
-	 pkg install ncurses-utils -y # Exemplo para distribuições baseadas em Debian/Ubuntu
+	# Comando para instalar o pv, você pode modificar de acordo com a sua distribuição
+	 apt install pv -y # Exemplo para distribuições baseadas em Debian/Ubuntu
 	# Se sua distribuição for diferente, substitua o comando acima pelo comando de instalação apropriado
  
 	else
@@ -48,7 +48,9 @@ Deseja instalá-lo agora? (s/n): " instalar_tput
  
 	fi
 
-        clear ; read -p "O comando 'tput' não está instalado. 
+        # Verifica se o comando tput está disponível
+	if ! command -v tput &>/dev/null; then
+	clear ; read -p "O comando 'tput' não está instalado. 
 Deseja instalá-lo agora? (s/n): " instalar_tput
 	if [ "$instalar_pv" = "s" ]; then
  
