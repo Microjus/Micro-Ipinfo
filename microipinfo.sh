@@ -52,7 +52,7 @@ Deseja instalá-lo agora? (s/n): " instalar_pv
 	if ! command -v tput &>/dev/null; then
 	clear ; read -p "O comando 'tput' não está instalado. 
 Deseja instalá-lo agora? (s/n): " instalar_tput
-	if [ "$instalar_pv" = "s" ]; then
+	if [ "$instalar_tput" = "s" ]; then
  
 	# Comando para instalar o tput, você pode modificar de acordo com a sua distribuição
 	 pkg install ncurses-utils -y # Exemplo para distribuições baseadas em Debian/Ubuntu
