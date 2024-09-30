@@ -71,6 +71,7 @@ Deseja instalá-lo agora? (s/n): " instalar_tput
 # Função de monitoramento em tempo real
 monitorar() {
 
+insigna
 while true
 do
     # Capturar o IP interno
