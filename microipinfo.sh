@@ -68,6 +68,27 @@ Deseja instalá-lo agora? (s/n): " instalar_tput
  	_init_program
 }
 
+# Função de monitoramento em tempo real
+monitorar() {
+
+while true
+do
+    # Capturar o IP interno
+    IP_REAL=$(hostname -I | awk '{print $1}')
+    
+    # Capturar o IP público usando ipinfo.io
+    IP_PUBLICO=$(curl -s ipinfo.io/ip)
+    
+    # Exibir IP real e IP público
+    echo "IP Real: $IP_REAL"
+    echo "IP Público (VPN/Internet): $IP_PUBLICO"
+    
+    # Esperar 10 segundos
+    sleep 10
+done
+
+}
+
 # Função para encerrar o script
 encerrar() {
 
@@ -198,6 +219,7 @@ _init_program() {
 
 [ 1 ] Capturar informacoes do ip
 [ 2 ] Sobre a ferramenta
+[ 3 ] Monitoramento em tempo real
 [ 0 ] Sair
 	
 [+] Selecione uma opcao:" -n1 _OPC 
@@ -215,6 +237,10 @@ _init_program() {
 	2) clear; 
 	
 		sobre; exit ;;
+
+  	3) monitorar;
+
+     		monitorar; exit ;;
 
 	*)
 	
