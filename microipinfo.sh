@@ -85,7 +85,7 @@ do
     echo "IP Público (VPN/Internet): $IP_PUBLICO"
     
     # Esperar 10 segundos
-    sleep 10
+    sleep 10 ; clear
 done
 
 }
